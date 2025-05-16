@@ -1,0 +1,13 @@
+{
+    "userId": "user1",
+    "wishlists": [
+      {
+        "id": "w1",
+        "name": "Summer",
+        "description": "Perfect for hot summer - we are going to Greece",
+        "isPublic": false,
+        "products": ["p1", "p2"]
+      }
+    ]
+  }
+  

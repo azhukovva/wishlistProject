@@ -1,0 +1,15 @@
+[
+    {
+      "id": "p1",
+      "name": "Nike Air Max",
+      "price": 120,
+      "inStock": true
+    },
+    {
+      "id": "p2",
+      "name": "Adidas Superstar",
+      "price": 90,
+      "inStock": false
+    }
+  ]
+  
