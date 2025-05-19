@@ -1,0 +1,14 @@
+{
+  "userId": "2",
+  "wishlists": [
+    {
+      "id": "b7c4f0df-499c-40ba-8a75-eb2fb7ef54c6",
+      "userId": "2",
+      "name": "Nike Sneakers",
+      "description": "Shoes I want for summer",
+      "products": [],
+      "isPublic": false,
+      "createdAt": "2025-05-19T18:43:51.560Z"
+    }
+  ]
+}
