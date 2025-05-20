@@ -1,9 +1,6 @@
 import CreateUserForm from "../components/CreateUserForm";
 
 export default function CreateUserPage() {
-  const handleAddWishlist = () => {
-
-  }
   return (
     <main className="flex h-screen">
       {/* right part */}

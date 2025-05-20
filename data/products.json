@@ -1,15 +1,28 @@
 [
-    {
-      "id": "p1",
-      "name": "Nike Air Max",
-      "price": 120,
-      "inStock": true
-    },
-    {
-      "id": "p2",
-      "name": "Adidas Superstar",
-      "price": 90,
-      "inStock": false
-    }
-  ]
-  
+  {
+    "id": "p1",
+    "name": "Nike Air Max",
+    "price": 120,
+    "inStock": true,
+    "description": "aaaaaa"
+  },
+  {
+    "id": "p2",
+    "name": "Adidas Superstar",
+    "price": 90,
+    "inStock": false,
+    "description": "aaaaaa"
+  },
+  {
+    "id": "abc123",
+    "name": "iPhone 15",
+    "description": "Latest Apple smartphone",
+    "price": 999
+  },
+  {
+    "id": "mbpro3",
+    "name": "MacBook Pro M3",
+    "description": "Want this!",
+    "price": 999
+  }
+]

@@ -2,6 +2,30 @@ import { NextRequest, NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 
+//NOTE - from here get also wishlists ?
+export async function GET(
+  req: NextRequest,
+  { params }: { params: { userId: string } }
+) {
+  const { userId } = params;
+
+  try {
+    const filePath = path.join(
+      process.cwd(),
+      "data",
+      "users",
+      `${userId}.json`
+    );
+    const fileContents = await fs.readFile(filePath, "utf-8");
+    const userData = JSON.parse(fileContents);
+
+    return NextResponse.json(userData, { status: 200 });
+  } catch (error) {
+    console.error("Error getting user data:", error);
+    return new NextResponse("User not found", { status: 404 });
+  }
+}
+
 // Create new user
 export async function POST(request: NextRequest) {
   try {
